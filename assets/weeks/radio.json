@@ -15,19 +15,10 @@
 		"bf",
 		"gf"
 	],
-	"songs": [
+	"songs": [	
 		[
-			"levitating",
-			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"speed-in-my-soul",
-			"dad",
+			"africa",
+			"monster",
 			[
 				146,
 				113,
@@ -44,6 +35,15 @@
 			]
 		],
 		[
+			"good4u",
+			"mom",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
 			"hohey",
 			"dad",
 			[
@@ -53,8 +53,8 @@
 			]
 		],
 		[
-			"whendovescry",
-			"dad",
+			"levitating",
+			"mom",
 			[
 				146,
 				113,
@@ -71,17 +71,8 @@
 			]
 		],
 		[
-			"africa",
-			"monster",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"wipeout",
-			"monster",
+			"speed-in-my-soul",
+			"dad",
 			[
 				146,
 				113,
@@ -91,24 +82,6 @@
 		[
 			"stay",
 			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"willow",
-			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"good4u",
-			"mom",
 			[
 				146,
 				113,
@@ -126,6 +99,42 @@
 		],
 		[
 			"surface-pressure",
+			"mom",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"whendovescry",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"wipeout",
+			"monster",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"willow",
+			"mom",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"walking-on-sunshine",
 			"mom",
 			[
 				146,
