@@ -1,6 +1,6 @@
 {
-	"storyName": "",
-	"difficulties": "Easy, Normal, Hard",
+	"storyName": "------------------------------------------------------",
+	"difficulties": "Easy",
 	"hideFreeplay": false,
 	"weekBackground": "",
 	"freeplayColor": [
@@ -18,17 +18,8 @@
 	],
 	"songs": [
 		[
-			"re-novillains",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"re-Die-Batsards-marshmix",
-			"dad",
+			"------------------------------------------------------",
+			"",
 			[
 				146,
 				113,
@@ -36,5 +27,5 @@
 			]
 		]
 	],
-	"weekName": "help"
+	"weekName": "------------------------------------------------------"
 }
