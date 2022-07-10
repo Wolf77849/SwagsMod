@@ -54,7 +54,7 @@
 		"bpm": 155,
 		"mania": 3,
 		"arrowSkin": null,
-		"needsVoices": true,
+		"needsVoices": false,
 		"song": "speed-in-my-soul"
 	}
 }

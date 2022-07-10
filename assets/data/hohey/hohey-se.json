@@ -28420,7 +28420,7 @@
 		"mania": 3,
 		"song": "hohey",
 		"validScore": true,
-		"needsVoices": true,
+		"needsVoices": false,
 		"stage": "stage",
 		"bpm": 79,
 		"speed": 1.5

@@ -7411,7 +7411,7 @@
 		"mania": 3,
 		"player3": null,
 		"song": "losing-my-mind",
-		"needsVoices": true,
+		"needsVoices": false,
 		"stage": "alan",
 		"validScore": true,
 		"speed": 2.7,

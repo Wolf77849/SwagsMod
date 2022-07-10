@@ -4214,7 +4214,7 @@
 		"song": "walking-on-sunshine",
 		"validScore": true,
 		"stage": "stage",
-		"needsVoices": true,
+		"needsVoices": false,
 		"bpm": 219.6,
 		"speed": 2.8
 	}

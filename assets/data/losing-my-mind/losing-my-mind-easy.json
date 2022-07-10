@@ -4563,7 +4563,7 @@
 		"song": "losing-my-mind",
 		"validScore": true,
 		"stage": "alan",
-		"needsVoices": true,
+		"needsVoices": false,
 		"bpm": 112,
 		"speed": 2.7
 	}

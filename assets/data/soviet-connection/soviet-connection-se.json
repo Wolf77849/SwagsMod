@@ -4733,7 +4733,7 @@
 		"mania": 3,
 		"player3": null,
 		"song": "soviet-connection",
-		"needsVoices": true,
+		"needsVoices": false,
 		"stage": "alan",
 		"validScore": true,
 		"speed": 2.7,

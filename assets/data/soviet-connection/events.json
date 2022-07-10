@@ -564,7 +564,7 @@
 		"bpm": 129,
 		"mania": 3,
 		"arrowSkin": null,
-		"needsVoices": true,
+		"needsVoices": false,
 		"song": "soviet-connection"
 	}
 }
