@@ -7343,12 +7343,12 @@
 			}
 		],
 		"player2": "bf",
-		"player3": null,
+		"player3": "gf",
 		"mania": 3,
 		"song": "soviet-connection",
 		"validScore": true,
-		"stage": "spooky",
-		"needsVoices": true,
+		"stage": "alan",
+		"needsVoices": false,
 		"bpm": 129,
 		"speed": 2.7
 	}
