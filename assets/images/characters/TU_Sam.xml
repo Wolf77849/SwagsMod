@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TU_Sam.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sam Down Note0000" x="0" y="0" width="345" height="326" frameX="-1" frameY="-4" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0001" x="0" y="0" width="345" height="326" frameX="-1" frameY="-4" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0002" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0003" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0004" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0005" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0006" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0007" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0008" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0009" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0010" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0011" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0012" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0013" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0014" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0015" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0016" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0017" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0018" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0019" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0020" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0021" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0022" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0023" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0024" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0025" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0026" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0027" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0028" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Down Note0029" x="345" y="0" width="342" height="329" frameX="0" frameY="0" frameWidth="346" frameHeight="330"/>
+	<SubTexture name="Sam Idle0000" x="687" y="0" width="365" height="372" frameX="-1" frameY="-20" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0001" x="687" y="0" width="365" height="372" frameX="-1" frameY="-20" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0002" x="1052" y="0" width="365" height="374" frameX="0" frameY="-18" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0003" x="1052" y="0" width="365" height="374" frameX="0" frameY="-18" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0004" x="1417" y="0" width="360" height="378" frameX="-3" frameY="-14" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0005" x="1417" y="0" width="360" height="378" frameX="-3" frameY="-14" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0006" x="0" y="378" width="362" height="390" frameX="-1" frameY="-2" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0007" x="0" y="378" width="362" height="390" frameX="-1" frameY="-2" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0008" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0009" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0010" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0011" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0012" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Idle0013" x="362" y="378" width="361" height="392" frameX="-2" frameY="0" frameWidth="366" frameHeight="392"/>
+	<SubTexture name="Sam Left Note0000" x="723" y="378" width="342" height="381"/>
+	<SubTexture name="Sam Left Note0001" x="723" y="378" width="342" height="381"/>
+	<SubTexture name="Sam Left Note0002" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0003" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0004" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0005" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0006" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0007" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0008" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0009" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0010" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0011" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0012" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0013" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Left Note0014" x="1065" y="378" width="341" height="380" frameX="-1" frameY="-1" frameWidth="342" frameHeight="381"/>
+	<SubTexture name="Sam Right Note0000" x="1406" y="378" width="332" height="384" frameX="-2" frameY="-2" frameWidth="334" frameHeight="386"/>
+	<SubTexture name="Sam Right Note0001" x="1406" y="378" width="332" height="384" frameX="-2" frameY="-2" frameWidth="334" frameHeight="386"/>
+	<SubTexture name="Sam Right Note0002" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0003" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0004" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0005" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0006" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0007" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0008" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0009" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0010" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0011" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0012" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0013" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0014" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0015" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0016" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0017" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0018" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0019" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0020" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0021" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0022" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0023" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0024" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0025" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0026" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0027" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0028" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0029" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0030" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0031" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0032" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0033" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0034" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0035" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0036" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0037" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0038" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0039" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0040" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0041" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0042" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0043" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0044" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0045" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0046" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0047" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0048" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0049" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0050" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0051" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0052" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0053" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0054" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0055" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0056" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0057" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0058" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0059" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0060" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Right Note0061" x="0" y="770" width="334" height="386"/>
+	<SubTexture name="Sam Up Note0000" x="334" y="770" width="345" height="387" frameX="-6" frameY="0" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0001" x="334" y="770" width="345" height="387" frameX="-6" frameY="0" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0002" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0003" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0004" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0005" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0006" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0007" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0008" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0009" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0010" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0011" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0012" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0013" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+	<SubTexture name="Sam Up Note0014" x="679" y="770" width="350" height="383" frameX="0" frameY="-4" frameWidth="351" frameHeight="387"/>
+</TextureAtlas>

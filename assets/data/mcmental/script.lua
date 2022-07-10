@@ -1,5 +1,5 @@
 function onUpdate(elapsed)
-    if difficulty == 5 then
+    if difficulty == 6 then
         --for 6-9k arrow movements on difficulty insane (or higher if I add more)
         if curStep >= 0 and curStep < 50000 then
             songPos = getSongPosition()
@@ -20,7 +20,7 @@ function onUpdate(elapsed)
             noteTweenX(defaultOpponentStrumX5, 5, defaultOpponentStrumX5 + 100*math.sin((currentBeat+9*0.25)*math.pi), 0.4)
 
 		end
-	else if difficulty <= 4 then
+	else if difficulty <= 5 then
         --for 4k arrow movements on difficulties expert+ and lower
 		if curStep >= 0 and curStep < 50000 then
 			songPos = getSongPosition()
