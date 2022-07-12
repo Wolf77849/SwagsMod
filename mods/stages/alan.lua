@@ -16,7 +16,7 @@ function onCreate()
     yy = 313;
     
     --BackGround Image
-    makeLuaSprite('bg', 'alanbg', -1000, -600);
+    makeLuaSprite('bg', 'weekwindows/images/alanbg', -1000, -600);
     scaleObject('bg', 1.2, 1.2);
 
     addLuaSprite('bg', false); -- ones ontop are on lower layers

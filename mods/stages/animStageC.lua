@@ -16,34 +16,34 @@ function onCreate()
     yy = 313;
     
 --BackGround Image
-    makeLuaSprite('bg', 'bg', -1000, -600);
+    makeLuaSprite('bg', 'weekwindows/images/bg', -1000, -600);
     scaleObject('bg', 1.2, 1.2);
 --Floor Image
-    makeLuaSprite('floor', 'floor', -1000, -600);
+    makeLuaSprite('floor', 'weekwindows/images/floor', -1000, -600);
     scaleObject('floor', 1.3, 1.3);
 --Fires Animation
-    makeAnimatedLuaSprite('bgchar', 'Fires', -500, 60);
+    makeAnimatedLuaSprite('bgchar', 'weekwindows/images/Fires', -500, 60);
     scaleObject('bgchar', 1.2, 1.2);
 
-    addAnimationByPrefix('bgchar', 'fires', 'Fires0', 24, true);
+    addAnimationByPrefix('bgchar', 'weekwindows/images/fires', 'Fires0', 24, true);
     objectPlayAnimation('bgchar', 'fires', true);
 --Google Window Animation
-    makeAnimatedLuaSprite('bgchar1', 'Google', -500, -300);
+    makeAnimatedLuaSprite('bgchar1', 'weekwindows/images/Google', -500, -300);
     scaleObject('bgchar1', 1.5, 1.5);
 
-    addAnimationByPrefix('bgchar1', 'window', 'Window0', 24, true);
+    addAnimationByPrefix('bgchar1', 'weekwindows/images/window', 'Window0', 24, true);
     objectPlayAnimation('bgchar1', 'window', true);
 --Twitter Window Animation
-    makeAnimatedLuaSprite('bgchar2', 'Twitter', 450, -300);
+    makeAnimatedLuaSprite('bgchar2', 'weekwindows/images/Twitter', 450, -300);
     scaleObject('bgchar2', 1.5, 1.5);
 
-    addAnimationByPrefix('bgchar2', 'twitter', 'Twitter0', 24, true);
+    addAnimationByPrefix('bgchar2', 'weekwindows/images/twitter', 'Twitter0', 24, true);
     objectPlayAnimation('bgchar2', 'twitter', true);
     --Newgrounds Window Animation
-    makeAnimatedLuaSprite('bgchar3', 'Newgrounds', 1300, -300);
+    makeAnimatedLuaSprite('bgchar3', 'weekwindows/images/Newgrounds', 1300, -300);
     scaleObject('bgchar3', 1.5, 1.5);
 
-    addAnimationByPrefix('bgchar3', 'newgrounds', 'Newgrounds0', 24, true);
+    addAnimationByPrefix('bgchar3', 'weekwindows/images/newgrounds', 'Newgrounds0', 24, true);
     objectPlayAnimation('bgchar3', 'newgrounds', true);
 
     addLuaSprite('bg', false); -- ones ontop are on lower layers

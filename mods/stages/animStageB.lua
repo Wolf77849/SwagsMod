@@ -15,17 +15,17 @@ function onCreate()
     xx = 420.95;
     yy = 313;
     
-    makeLuaSprite('bg', 'bg', -1000, -600);
+    makeLuaSprite('bg', 'weekwindows/images/bg', -1000, -600);
     scaleObject('bg', 1.2, 1.2);
-    makeLuaSprite('floor', 'floor', -1000, -600);
+    makeLuaSprite('floor', 'weekwindows/images/floor', -1000, -600);
     scaleObject('floor', 1.3, 1.3);
-    makeAnimatedLuaSprite('bgchar1', 'Fires', -500, 170);
+    makeAnimatedLuaSprite('bgchar1', 'weekwindows/images/Fires', -500, 170);
     scaleObject('bgchar1', 1, 1);
-    addAnimationByPrefix('bgchar1', 'fires', 'Fires0', 24, true);
+    addAnimationByPrefix('bgchar1', 'weekwindows/images/fires', 'Fires0', 24, true);
     objectPlayAnimation('bgchar1', 'fires', true);
-    makeAnimatedLuaSprite('bgchar', 'ScaredCrowd', -70, 10);
+    makeAnimatedLuaSprite('bgchar', 'weekwindows/images/ScaredCrowd', -70, 10);
     scaleObject('bgchar', 2.7, 2.7);
-    addAnimationByPrefix('bgchar', 'scared', 'ScaredCrowd0', 24, true);
+    addAnimationByPrefix('bgchar', 'weekwindows/images/scared', 'ScaredCrowd0', 24, true);
     objectPlayAnimation('bgchar', 'scared', true);
     addLuaSprite('bg', false); -- ones ontop are on lower layers
     addLuaSprite('bgchar', false);

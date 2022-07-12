@@ -3,7 +3,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Heal_Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'Heal_Note'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'me/notes/Heal_Note'); --Change texture
 		end
 	end
 	--debugPrint('Script started!')
