@@ -1,14 +1,5 @@
-local allowCountdown = false
 local angleshit = 1;
 local anglevar = 1;
-function onStartCountdown()
-	if not allowCountdown and isFreeplay and not seenCutscene then --Block the first countdown
-		startVideo('cutscene1');
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
 
 function onBeatHit()
     if curBeat > 31 then
