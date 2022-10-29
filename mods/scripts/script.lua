@@ -53,3 +53,8 @@ end
 function onSongStart()
         setPropertyFromClass('ClientPrefs', 'camZooms', true);
 end
+
+function onDestroy()
+    setPropertyFromClass("openfl.Lib", "application.window.x", 0)
+    setPropertyFromClass("openfl.Lib", "application.window.y", 24)
+end

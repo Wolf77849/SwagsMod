@@ -1,14 +1,10 @@
 tutorial
-dream
-fnaf
 radio
 cyber
-mcmental
-why-trying
 geometrydash
-random
 hard
-goodluck
+hard-oneplayer
+wtti
 -----------------------------------------------------
 comments1
 comments2
@@ -16,7 +12,5 @@ comments3
 ------------------------------------------------------
 ghost
 ghostleft
-weekwindows
-weekwindows-freeplay
 -------------------------------------------------------
 help

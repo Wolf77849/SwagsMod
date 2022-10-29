@@ -1,0 +1,7 @@
+Toggle scroll types
+::Downscroll/Upscroll
+::LeftSide/RightSide
+
+Value1: 0 to RESET -OR- 1 Toggle ScrollMode
+
+Value2: 0 to RESET -OR- 1 Toggle Playing Side

@@ -17,53 +17,8 @@
 	],
 	"songs": [	
 		[
-			"africa",
-			"monster",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"dynamite",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"good4u",
-			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"hohey",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
 			"levitating",
 			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"payphone",
-			"dad",
 			[
 				146,
 				113,
@@ -80,44 +35,8 @@
 			]
 		],
 		[
-			"stay",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"stayin-alive",
-			"pico",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
 			"surface-pressure",
 			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"whendovescry",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"wipeout",
-			"monster",
 			[
 				146,
 				113,
@@ -132,17 +51,8 @@
 				113,
 				253
 			]
-		],
-		[
-			"walking-on-sunshine",
-			"mom",
-			[
-				146,
-				113,
-				253
-			]
 		]
 	],
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"weekName": "radio"
 }
