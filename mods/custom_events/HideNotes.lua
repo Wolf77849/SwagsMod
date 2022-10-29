@@ -1,6 +1,6 @@
 local ran = false
 function onEvent(name, value1, value2)
-    if name == "Hideopponentnotes" then
+    if name == "HideNotes" then
         value1 = tonumber(value1);
         value2 = tonumber(value2);
         if value1 == 1 then
