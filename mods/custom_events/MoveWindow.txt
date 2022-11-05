@@ -1,3 +1,0 @@
-Value1: 1=Xaxis 2=Yaxis
-
-Value2: coordinates are additive to current

@@ -77,31 +77,6 @@ function onEvent(name, value1, value2)
             noteTweenY("y8",7,newnotePosY,duration,"quartInOut");
             noteTweenAngle("r8",7,rotation,duration, "quartInOut");
             noteTweenAlpha("o8",7,opacity,duration,"quartInOut");
-        elseif value1 == 8 then
-            noteTweenX("x9",8,newnotePosX,duration,"quartInOut");
-            noteTweenY("y9",8,newnotePosY,duration,"quartInOut");
-            noteTweenAngle("r9",8,rotation,duration, "quartInOut");
-            noteTweenAlpha("o9",8,opacity,duration,"quartInOut");
-        elseif value1 == 9 then
-            noteTweenX("x10",9,newnotePosX,duration,"quartInOut");
-            noteTweenY("y10",9,newnotePosY,duration,"quartInOut");
-            noteTweenAngle("r10",9,rotation,duration, "quartInOut");
-            noteTweenAlpha("o10",9,opacity,duration,"quartInOut");
-        elseif value1 == 10 then
-            noteTweenX("x11",10,newnotePosX,duration,"quartInOut");
-            noteTweenY("y11",10,newnotePosY,duration,"quartInOut");
-            noteTweenAngle("r11",10,rotation,duration, "quartInOut");
-            noteTweenAlpha("o11",10,opacity,duration,"quartInOut");
-        elseif value1 == 11 then
-            noteTweenX("x12",11,newnotePosX,duration,"quartInOut");
-            noteTweenY("y12",11,newnotePosY,duration,"quartInOut");
-            noteTweenAngle("r12",11,rotation,duration, "quartInOut");
-            noteTweenAlpha("o12",11,opacity,duration,"quartInOut");
-        elseif value1 == 12 then
-            noteTweenX("x13",12,newnotePosX,duration,"quartInOut");
-            noteTweenY("y13",12,newnotePosY,duration,"quartInOut");
-            noteTweenAngle("r13",12,rotation,duration, "quartInOut");
-            noteTweenAlpha("o13",12,opacity,duration,"quartInOut");
         end
     end
 end
