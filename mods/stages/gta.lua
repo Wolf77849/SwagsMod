@@ -7,19 +7,13 @@ local followchars = true;
 local del = 0;
 local del2 = 0;
 function onCreate()
-
-	for i=1,5,1 do
-
-	end
-	
-    xx = 420.95;
-    yy = 313;
     
     --BackGround Image
     makeLuaSprite('bg', 'me/backgrounds/gtabg', -1000, -600);
     scaleObject('bg', 1.2, 1.2);
 
     addLuaSprite('bg', false); -- ones ontop are on lower layers
+    close(true);
 end
 
 

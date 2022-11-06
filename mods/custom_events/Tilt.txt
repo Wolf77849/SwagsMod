@@ -1,4 +1,6 @@
 Value1: 1=HUD 2=GAME
+3hud and 4game are same but stonger
+anything other than 1234 is YOUR custom angle
 
 Value2: 1=HUD 2=GAME
 3hud and 4game are same but stonger

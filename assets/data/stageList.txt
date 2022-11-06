@@ -6,7 +6,3 @@ mall
 mallEvil
 school
 schoolEvil
-animStage
-animStageB
-animStageC
-alan
