@@ -1,12 +1,29 @@
 {
 	"song": {
 		"player1": "bf",
-		"events": [],
+		"events": [
+			[
+				0,
+				[
+					[
+						"HideNotes",
+						"1",
+						""
+					]
+				]
+			]
+		],
 		"gfVersion": "gf",
 		"notes": [
 			{
 				"lengthInSteps": 16,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						0,
+						5,
+						0
+					]
+				],
 				"sectionBeats": 3,
 				"gfSection": false,
 				"bpm": 103,
@@ -6661,6 +6678,26 @@
 				"mustHitSection": true,
 				"changeBPM": false,
 				"bpm": 86
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 86,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 86,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
 			},
 			{
 				"gfSection": false,
