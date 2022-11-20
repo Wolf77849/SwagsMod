@@ -6773,10 +6773,31 @@
 				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
 			}
 		],
 		"gfVersion": "gf",
-		"events": [],
+		"events": [
+			[
+				75,
+				[
+					[
+						"HideNotes",
+						"0",
+						"0"
+					]
+				]
+			]
+		],
 		"mania": 3,
 		"player3": null,
 		"song": "everybody-do-the-flop",
