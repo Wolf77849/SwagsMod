@@ -1,98 +1,86 @@
 local ran = false
 local ran1 = false
+local thing = 1
+local event = 0
+local v1 = 0
+local v2 = false
 function onEvent(name, value1, value2)
-if name == "Tilt" then
-    value1 = tonumber(value1);
-    value2 = tonumber(value2);
-    if value1 == 0 then
-        doTweenAngle('Gtween', 'camHUD', 0, 0.5, 'bounceOut');
-        doTweenAngle('Gtween', 'camGame', 0, 0.5, 'bounceOut');
-        ran = false
-    elseif value1 == 1 then
-        if ran then
-            doTweenAngle('GUItween', 'camHUD', 10, 0.5, 'bounceOut');
+    if name == "Tilt" then
+        event = "Tilt"
+        value1 = tonumber(value1);
+        value2 = tonumber(value2);
+        if value1 == 0 then
+            doTweenAngle('GUItween', 'camHUD', 0, 0.3, 'bounceOut');
             ran = false
-        else
-            doTweenAngle('GUItween', 'camHUD', -10, 0.5, 'bounceOut');
-            ran = true
+        elseif value1 == 1 then
+            if ran then
+                doTweenAngle('GUI1tween', 'camHUD', 10, 0.3, 'bounceOut');
+                ran = false
+            else
+                doTweenAngle('GUI1tween', 'camHUD', -10, 0.3, 'bounceOut');
+                ran = true
+            end
+        elseif value1 == 2 then
+            if ran then
+                doTweenAngle('GUI2tween', 'camHUD', 30, 0.3, 'bounceOut');
+                ran = false
+            else
+                doTweenAngle('GUI2tween', 'camHUD', -30, 0.3, 'bounceOut');
+                ran = true
+            end
+        elseif v1 == v1 then
+            if ran then
+                doTweenAngle('GUI3tween', 'camHUD', value1, 0.3, 'bounceOut');
+                ran = false
+            else
+                doTweenAngle('GUI3tween', 'camHUD', -value1, 0.3, 'bounceOut');
+                ran = true
+            end
         end
-    elseif value1 == 2 then
-        if ran then
-            doTweenAngle('Gtween', 'camGame', 10, 0.5, 'bounceOut');
-            ran = false
-        else
-            doTweenAngle('Gtween', 'camGame', -10, 0.5, 'bounceOut');
-            ran = true
-        end
-    elseif value1 == 3 then
-        if ran then
-            doTweenAngle('GUItween', 'camHUD', 30, 0.5, 'bounceOut');
-            ran = false
-        else
-            doTweenAngle('GUItween', 'camHUD', -30, 0.5, 'bounceOut');
-            ran = true
-        end
-    elseif value1 == 4 then
-        if ran then
-            doTweenAngle('Gtween', 'camGame', 30, 0.5, 'bounceOut');
-            ran = false
-        else
-            doTweenAngle('Gtween', 'camGame', -30, 0.5, 'bounceOut');
-            ran = true
-        end
-    else
-        if ran then
-            doTweenAngle('Gtween', 'camGame', value1, 0.5, 'bounceOut');
-            ran = false
-        else
-            doTweenAngle('Gtween', 'camGame', -value1, 0.5, 'bounceOut');
-            ran = true
-        end
-    end
-    if value2 == 0 then
-        doTweenAngle('Gtween', 'camGame', 0, 0.5, 'bounceOut');
-        doTweenAngle('Gtween', 'camHUD', 0, 0.5, 'bounceOut');
-        ran1 = false
-    elseif value2 == 1 then
-        if ran1 then
-            doTweenAngle('GUI1tween', 'camHUD', 10, 0.5, 'bounceOut');
+
+        if value2 == 0 then
+            doTweenAngle('GUI4tween', 'camGame', 0, 0.3, 'bounceOut');
             ran1 = false
-        else
-            doTweenAngle('GUI1tween', 'camHUD', -10, 0.5, 'bounceOut');
-            ran1 = true
-        end
-    elseif value2 == 2 then
-        if ran1 then
-            doTweenAngle('G1tween', 'camGame', 10, 0.5, 'bounceOut');
-            ran1 = false
-        else
-            doTweenAngle('G1tween', 'camGame', -10, 0.5, 'bounceOut');
-            ran1 = true
-        end
-    elseif value2 == 3 then
-        if ran1 then
-            doTweenAngle('GUItween', 'camHUD', 30, 0.5, 'bounceOut');
-            ran1 = false
-        else
-            doTweenAngle('GUItween', 'camHUD', -30, 0.5, 'bounceOut');
-            ran1 = true
-        end
-    elseif value2 == 4 then
-        if ran1 then
-            doTweenAngle('Gtween', 'camGame', 30, 0.5, 'bounceOut');
-            ran1 = false
-        else
-            doTweenAngle('Gtween', 'camGame', -30, 0.5, 'bounceOut');
-            ran1 = true
-        end
-    else
-        if ran1 then
-            doTweenAngle('GUI1tween', 'camHUD', value2, 0.5, 'bounceOut');
-            ran1 = false
-        else
-            doTweenAngle('GUI1ween', 'camHUD', -value2, 0.5, 'bounceOut');
-            ran1 = true
+        elseif value2 == 1 then
+            if ran1 then
+                doTweenAngle('GUI5tween', 'camGame', 10, 0.3, 'bounceOut');
+                ran1 = false
+            else
+                doTweenAngle('GUI5tween', 'camGame', -10, 0.3, 'bounceOut');
+                ran1 = true
+            end
+        elseif value2 == 2 then
+            if ran1 then
+                doTweenAngle('GUI6tween', 'camGame', 30, 0.3, 'bounceOut');
+                ran1 = false
+            else
+                doTweenAngle('GUI6tween', 'camGame', -30, 0.3, 'bounceOut');
+                ran1 = true
+            end
+        elseif value2 == 1234 then
+            v2 = true
+        elseif value2 == 1111 then
+            v2 = false
+            value1 = 0
+            value2 = 0
+        elseif v1 == v1 then
+            if ran then
+                doTweenAngle('GUI7tween', 'camGame', value2, 0.3, 'bounceOut');
+                ran1 = false
+            else
+                doTweenAngle('GUI7tween', 'camGame', -value2, 0.3, 'bounceOut');
+                ran1 = true
+            end
         end
     end
 end
+
+function onBeatHit()
+    if v2 then
+        thing = thing * -1
+        doTweenAngle('rotate', 'camHUD', thing * 5, crochet / 1000, 'quadInOut')
 end
+end
+
+
+

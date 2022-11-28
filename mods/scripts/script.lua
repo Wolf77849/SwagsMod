@@ -59,3 +59,19 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.x", 0)
     setPropertyFromClass("openfl.Lib", "application.window.y", 25)
 end
+
+function onSectionHit()
+    doTweenZoom('tweeningZoom', 'camHUD', 1.3, 0.05, 'quadOut')
+    doTweenZoom('tweeningZoomin', 'camGame', 1.3, 0.05, 'quadOut')
+end
+
+function onUpdate()
+    if curBeat == 4 then
+        noteTweenAlpha("o1",0,0.5,0.001,"quartInOut");
+    noteTweenAlpha("o2",1,0.5,0.001,"quartInOut");
+    noteTweenAlpha("o3",2,0.5,0.001,"quartInOut");
+    noteTweenAlpha("o4",3,0.5,0.001,"quartInOut");
+    end
+    doTweenZoom('tweeningZoom', 'camHUD', 1, 0.15, 'quadOut')
+    doTweenZoom('tweeningZoomin', 'camGame', 1, 0.15, 'quadOut')
+end
