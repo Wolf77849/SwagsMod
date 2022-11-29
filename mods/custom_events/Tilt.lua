@@ -7,9 +7,9 @@ local v2 = false
 function onEvent(name, value1, value2)
     if name == "Tilt" then
         event = "Tilt"
-        value1 = tonumber(value1);
-        value2 = tonumber(value2);
-        if value1 == 0 then
+        value1 = tonumber(value1) or 0;
+        value2 = tonumber(value2) or 0;
+        if value1 == 00 then
             doTweenAngle('GUItween', 'camHUD', 0, 0.3, 'bounceOut');
             ran = false
         elseif value1 == 1 then
@@ -28,17 +28,15 @@ function onEvent(name, value1, value2)
                 doTweenAngle('GUI2tween', 'camHUD', -30, 0.3, 'bounceOut');
                 ran = true
             end
-        elseif v1 == v1 then
-            if ran then
+        elseif ran then
                 doTweenAngle('GUI3tween', 'camHUD', value1, 0.3, 'bounceOut');
                 ran = false
             else
                 doTweenAngle('GUI3tween', 'camHUD', -value1, 0.3, 'bounceOut');
                 ran = true
-            end
         end
 
-        if value2 == 0 then
+        if value2 == 00 then
             doTweenAngle('GUI4tween', 'camGame', 0, 0.3, 'bounceOut');
             ran1 = false
         elseif value2 == 1 then
@@ -63,14 +61,12 @@ function onEvent(name, value1, value2)
             v2 = false
             value1 = 0
             value2 = 0
-        elseif v1 == v1 then
-            if ran then
+        elseif ran then
                 doTweenAngle('GUI7tween', 'camGame', value2, 0.3, 'bounceOut');
                 ran1 = false
             else
                 doTweenAngle('GUI7tween', 'camGame', -value2, 0.3, 'bounceOut');
                 ran1 = true
-            end
         end
     end
 end

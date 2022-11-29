@@ -1,3 +1,4 @@
+local stop = false
 function opponentNoteHit()
     if week <= 3 then
         if difficulty >= 2 then
@@ -59,19 +60,43 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.x", 0)
     setPropertyFromClass("openfl.Lib", "application.window.y", 25)
 end
-
+local el = 0
 function onSectionHit()
-    doTweenZoom('tweeningZoom', 'camHUD', 1.3, 0.05, 'quadOut')
-    doTweenZoom('tweeningZoomin', 'camGame', 1.3, 0.05, 'quadOut')
+    if stop == false then
+        doTweenZoom('tweeningZoom', 'camHUD', 1.2, 0.07, 'quadOut')
+        doTweenZoom('tweeningZoomin', 'camGame', 1.2, 0.07, 'quadOut')
+    end
 end
 
-function onUpdate()
+function onUpdate(elapsed)
+    el = elapsed
     if curBeat == 4 then
         noteTweenAlpha("o1",0,0.5,0.001,"quartInOut");
-    noteTweenAlpha("o2",1,0.5,0.001,"quartInOut");
-    noteTweenAlpha("o3",2,0.5,0.001,"quartInOut");
-    noteTweenAlpha("o4",3,0.5,0.001,"quartInOut");
+        noteTweenAlpha("o2",1,0.5,0.001,"quartInOut");
+        noteTweenAlpha("o3",2,0.5,0.001,"quartInOut");
+        noteTweenAlpha("o4",3,0.5,0.001,"quartInOut");
     end
-    doTweenZoom('tweeningZoom', 'camHUD', 1, 0.15, 'quadOut')
-    doTweenZoom('tweeningZoomin', 'camGame', 1, 0.15, 'quadOut')
+    if stop == false then
+        doTweenZoom('tweeningZoom', 'camHUD', 1, 0.15, 'quadOut')
+        doTweenZoom('tweeningZoomin', 'camGame', 1, 0.15, 'quadOut')
+    else
+        doTweenZoom('tweeningZoom', 'camHUD', 1, el, 'quadOut')
+        doTweenZoom('tweeningZoomin', 'camGame', 1, el, 'quadOut')
+    end
+end
+
+function onEvent(name, value1, value2)
+    if name == "nozoom" then
+        value1 = tonumber(value1);
+        value2 = tonumber(value2);
+        if value1 == 1 then
+            stop = true
+        else
+            stop = false
+        end
+        if value2 == "" then
+        doTweenZoom('tweeningZoom', 'camHUD', 1, el, 'quadOut')
+        doTweenZoom('tweeningZoomin', 'camGame', 1, el, 'quadOut')
+        end
+    end
 end
