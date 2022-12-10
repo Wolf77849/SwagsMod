@@ -63,8 +63,8 @@ end
 local el = 0
 function onSectionHit()
     if stop == false then
-        doTweenZoom('tweeningZoom', 'camHUD', 1.2, 0.07, 'quadOut')
-        doTweenZoom('tweeningZoomin', 'camGame', 1.2, 0.07, 'quadOut')
+        doTweenZoom('tweeningZoom', 'camHUD', 1.25, 0.07, 'quadOut')
+        doTweenZoom('tweeningZoomin', 'camGame', 1.25, 0.07, 'quadOut')
     end
 end
 
