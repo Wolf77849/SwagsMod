@@ -9,6 +9,7 @@ local sw = 0
 local onlyX = false
 local onlyY = false
 local x = 0
+local stop = false
 local y = 0
 function onCreate()
     sx = getPropertyFromClass("openfl.Lib", "application.window.x")
@@ -44,7 +45,10 @@ function onUpdate()
         running = true
     elseif curBeat == 328 then
         running = false
+        stop = true
+        setPropertyFromClass("openfl.Lib", "application.window.fullscreen", true)
     elseif curBeat == 424 then
+        stop = false
         running = true
     elseif curBeat == 496 then
         running = false
@@ -52,6 +56,8 @@ function onUpdate()
 end
 function onUpdatePost(elapsed)
     Elap = Elap + (elapsed*4)
+    if stop then
+    else
     if running then
         setPropertyFromClass("openfl.Lib", "application.window.fullscreen", false)
         setPropertyFromClass("openfl.Lib", "application.window.x", 1000*math.cos(Elap)/10+x)
@@ -69,6 +75,7 @@ function onUpdatePost(elapsed)
     else
         setPropertyFromClass("openfl.Lib", "application.window.fullscreen", true)
     end
+end
 end
 
 function onDestroy()
