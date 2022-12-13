@@ -95,6 +95,20 @@ function onEvent(name, value1, value2)
             noteTweenX("x7",6,defaultPlayerStrumX2,0.2,"cubeInOut");
             noteTweenX("x8",7,defaultPlayerStrumX3,0.2,"cubeInOut");
             ran1 = false 
+        elseif value2 == 3 then
+            noteTweenAlpha("o1",0,0,0.5,"quartInOut");
+            noteTweenAlpha("o2",1,0,0.5,"quartInOut");
+            noteTweenAlpha("o3",2,0,0.5,"quartInOut");
+            noteTweenAlpha("o4",3,0,0.5,"quartInOut");
+            noteTweenX("x1",0,defaultOpponentStrumX0+75,0.2,"cubeInOut");
+            noteTweenX("x2",1,defaultOpponentStrumX1+75,0.2,"cubeInOut");
+            noteTweenX("x3",2,defaultPlayerStrumX2-79,0.2,"cubeInOut");
+            noteTweenX("x4",3,defaultPlayerStrumX3-79,0.2,"cubeInOut");
+
+            noteTweenX("x5",4,defaultPlayerStrumX0-323,0.2,"cubeInOut");
+            noteTweenX("x6",5,defaultPlayerStrumX1-323,0.2,"cubeInOut");
+            noteTweenX("x7",6,defaultPlayerStrumX2-323,0.2,"cubeInOut");
+            noteTweenX("x8",7,defaultPlayerStrumX3-323,0.2,"cubeInOut");
         end
     end
 end

@@ -196,9 +196,9 @@
 	"healthicon": "gf-invis",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		255,
-		255
+		235,
+		0,
+		0
 	],
 	"camera_position": [
 		0,
