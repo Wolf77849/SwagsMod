@@ -1,6 +1,7 @@
 tutorial
 radio
 cyber
+wtf
 geometrydash
 hard
 hard-oneplayer
