@@ -63,10 +63,6 @@ function onEvent(name,value1,value2)
 			setProperty('scoreTxt.alpha', 0);
 			setProperty('timeBar.alpha', 0);
 			setProperty('timeTxt.alpha', 0);
-			noteTweenAlpha("o5",4,0,0.5,"quartInOut");
-            noteTweenAlpha("o6",5,0,0.5,"quartInOut");
-            noteTweenAlpha("o7",6,0,0.5,"quartInOut");
-            noteTweenAlpha("o8",7,0,0.5,"quartInOut");
 		end
 		if value2 == '2' then
 			setProperty('healthBar.alpha', 1);
@@ -76,10 +72,6 @@ function onEvent(name,value1,value2)
 			setProperty('scoreTxt.alpha', 1);
 			setProperty('timeBar.alpha', 1);
 			setProperty('timeTxt.alpha', 1);
-			noteTweenAlpha("o5",4,1,0.5,"quartInOut");
-            noteTweenAlpha("o6",5,1,0.5,"quartInOut");
-            noteTweenAlpha("o7",6,1,0.5,"quartInOut");
-            noteTweenAlpha("o8",7,1,0.5,"quartInOut");
 		end
 	end	
 end
