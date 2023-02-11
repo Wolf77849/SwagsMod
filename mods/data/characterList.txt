@@ -18,10 +18,9 @@ senpai
 senpai-angry
 spirit
 bf-pixel-opponent
+gf-tankmen
+tankman
+pico-speaker
+bf-holding-gf
 pico-player
-tco1
-tco
-tdl
-tdlflying
-b3bf
-b3gf
+tankman-player
