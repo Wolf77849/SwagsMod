@@ -51,9 +51,11 @@ function onTimerCompleted(tag, loops, loopsLeft)
     if tag == 'Died' and Dodged == false then
         setProperty('health', getProperty('health')-.8);
         removeLuaSprite('spacebar');
+        twice = 0
     elseif tag == 'Died' and Dodged == true then
         Dodged = false
         removeLuaSprite('spacebar');
+        twice = 0
 
     end
 end
